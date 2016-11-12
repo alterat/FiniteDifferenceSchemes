@@ -1,3 +1,12 @@
+# Simple harmonic oscillator simulation in Julia
+# @INPUT:
+#     f = frequency of the oscillator
+#     σ = loss coefficients
+# @OUTPUT:
+#     out = time history of the oscillator's displacement
+# AUTHOR: Alberto Torin
+# =================================
+
 function sho(f, σ)
 
 # Initial conditions
